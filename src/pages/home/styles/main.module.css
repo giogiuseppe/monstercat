@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', cursive;
+    background: url('../../../assets/images/background.png') repeat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.content {
+    display: grid;
+    text-align: center;
+    place-items: center;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 0 7.5px 0 0;
+}
+
+.title {
+    color: #F1F1F1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #F1F1F1;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
